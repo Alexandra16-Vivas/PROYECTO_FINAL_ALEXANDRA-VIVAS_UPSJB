@@ -1,6 +1,6 @@
 ---
 title: "SEMANA_10_SISTEMATIZACION"
-author: "JESSICA_PANTA_PANTA"
+author: "ALEXANDRA_VIVAS_RAMOS"
 format: html
 editor: visual
 ---
@@ -31,3 +31,4 @@ median(data$Edad)
 #MODA
 mode_Edad<-names(sort(table(data$Edad),decreasing = TRUE))
 ```
+
