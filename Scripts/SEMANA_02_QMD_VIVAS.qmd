@@ -1,6 +1,6 @@
 ---
 title: "SEMANA_02_SISTEMATIZACIÓN"
-author: "JALEXANDRA_VIVAS_RAMOS"
+author: "ALEXANDRA_VIVAS_RAMOS"
 format: html
 editor: visual
 ---
@@ -28,4 +28,5 @@ editor: visual
 ```{r}
 #5. Proyecto creado en R studio
 ```
+
 
