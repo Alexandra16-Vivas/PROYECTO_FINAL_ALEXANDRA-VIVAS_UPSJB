@@ -1,0 +1,101 @@
+---
+title: "SEMANA 7_ENVIAR"
+format: html
+editor: visual
+---
+
+## SEMANA 7
+
+Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+## SISTEMATIZACION Y METODOS ESTADISTICOS
+
+s07_glucosa_circun \<- read_csv("C:/Users/MAYA/Downloads/s07_glucosa_circun.csv") View(s07_glucosa_circun)
+
+```{r}
+data<-data.frame(s07_glucosa_circun)
+data
+```
+
+```{r}
+apertura<-data$edad
+head(apertura)
+```
+
+vamos a realizar las graficas para ello instalar el paquete fdth
+
+```{tabla<-fdt(apertura)}
+tabla
+hist(apertura)
+hist(apertura,col="red")
+grafico de dispersion
+```
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
+```{plot(apertura)}
+plot(apertura,col="blue",type="o")
+```
+
+#calculamos las medidas de tendencia central
+
+```{prom<-mean(apertura)}
+prom
+
+```
+
+```{mediana<-median(apertura)}
+mediana
+median(data$edad)
+```
+
+#CALCULAMOS MODA
+
+```{mode_Edad<-names(sort(table(data$Edad),decreasing = TRUE))}
+
+```
+
+#DESVIACION ESTANDAR
+
+```{sd(data$edad,na.rm = TRUE)}
+
+```
+
+#calculamos medidas de dispersion
+
+```{varianza<-var(apertura)}
+varianza
+
+```
+
+#RANGO
+
+```{range(data$Edad,na.rm = TRUE)}
+```
+
+#RANGO INTERCUARTILICO
+
+```{IQR(data$Edad,na.rm = TRUE)}
+esvest<-sd(apertura)
+desvest
+
+```
+
+#MEDIDAS DE POSICION
+
+```{quantile(data$Edad, probs =c)}
+```
+
+#ANALISIS
+
+#ESTADISTICOS DESCRIPTIVO
+
+```{#histograma}
+hist(data$severidad,
+     main="Histograma de Severidad",
+     xlab="Severidad",
+     col="skyblue"
+border="black"
+```
