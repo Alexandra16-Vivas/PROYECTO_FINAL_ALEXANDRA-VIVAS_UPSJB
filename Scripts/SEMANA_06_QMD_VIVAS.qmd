@@ -1,6 +1,6 @@
 ---
 title: "SEMANA_06_SISTEMATIZACIÓN"
-author: "JESSICA_PANTA_PANTA"
+author: "ALEXANDRA_VIVAS_RAMOS"
 format: html
 editor: visual
 ---
@@ -18,3 +18,4 @@ data<- read_csv("C:/Users/Lenovo/Downloads/s02_treat_artritis.csv")
 #LIMPIAR DATA DE UNA FILA QUE CONTENGA FILAS CON NA
 data_limpia<-data[!is.na(data$CDAI),]
 ```
+
