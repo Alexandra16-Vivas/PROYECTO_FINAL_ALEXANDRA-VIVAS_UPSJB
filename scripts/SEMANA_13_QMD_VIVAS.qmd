@@ -1,6 +1,6 @@
 ---
 title: "SEMANA-13-SISTEMATIZACION"
-author: "OJEDA SANCHEZ KARLA"
+author: "ALEXANDRA_VIVAS_RAMOS"
 format: html
 editor: visual
 ---
@@ -77,3 +77,4 @@ prop.table(table(data$Edad))
 #HISTOGRAMA
 ggplot(data, aes(x= IMC))+geom_histogram(bing = 30)+theme_minimal()
 ```
+
