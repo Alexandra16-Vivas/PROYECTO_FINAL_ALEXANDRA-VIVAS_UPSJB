@@ -1,6 +1,6 @@
 ---
 title: "SEMANA 8 qmd"
-author: "VALERIA_LAURA_ANGULO"
+author: "ALEXANDRA_VIVAS_RAMOS"
 format: html
 editor: visual
 ---
@@ -31,3 +31,4 @@ hist(mis_datos,main = "Histograma de datos generados",
      border = "red")
 
 ```
+
