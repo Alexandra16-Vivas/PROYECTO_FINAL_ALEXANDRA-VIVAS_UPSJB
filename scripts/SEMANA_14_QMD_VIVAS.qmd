@@ -1,6 +1,6 @@
 ---
 title: "PROYECTO_SEMANA_14"
-author: "JESSICA PANTA"
+author: "ALEXANDRA_VIVAS_RAMOS"
 format: html
 editor: visual
 ---
@@ -40,4 +40,5 @@ par(mfrow=c(2,2))
 plot(modelo2)
 par(mfrow=c(1,1))
 ```
+
 
