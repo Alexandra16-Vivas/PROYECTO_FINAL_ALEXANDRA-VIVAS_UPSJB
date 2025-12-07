@@ -24,3 +24,4 @@ data<- read_csv("C:/Users/Usuario/Downloads/s02_treat_artritis.csv")
 #LIMPIAR DATA DE LA COLUMNA QUE CONTENGA FILAS CON NA
 data_limpia<-data[!is.na(data$CDAI),]
 ```
+
