@@ -1,6 +1,6 @@
 ---
 title: "SEMANA_04_SISTEMATIZACION"
-author: "JESSICA_PANTA _PANTA"
+author: "ALEXANDRA_VIVAS_RAMOS"
 format: html
 editor: visual
 ---
@@ -28,4 +28,5 @@ editor: visual
 ```{r}
 #Verifíco en mis archivos descargados
 ```
+
 
